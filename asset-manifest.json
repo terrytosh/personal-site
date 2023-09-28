@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.js": "/personal-site/static/js/main.2e0eff74.js",
+    "main.js": "/personal-site/static/js/main.94617fb4.js",
+    "static/media/newport.JPG": "/personal-site/static/media/newport.cbf0a7232761354ba16d.JPG",
     "index.html": "/personal-site/index.html",
-    "main.2e0eff74.js.map": "/personal-site/static/js/main.2e0eff74.js.map"
+    "main.94617fb4.js.map": "/personal-site/static/js/main.94617fb4.js.map"
   },
   "entrypoints": [
-    "static/js/main.2e0eff74.js"
+    "static/js/main.94617fb4.js"
   ]
 }
