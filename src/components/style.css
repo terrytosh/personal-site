@@ -77,18 +77,18 @@ main {
 
 .fa-primary {
     color: #ff7eee;
-  }
+}
   
-  .fa-secondary {
+.fa-secondary {
     color: #df49a6;
-  }
+}
   
-  .fa-primary,
-  .fa-secondary {
+.fa-primary,
+.fa-secondary {
     transition: var(--transition-speed);
-  }
+}
 
-  .logo {
+.logo {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 1rem;
@@ -98,13 +98,13 @@ main {
     font-size: 1.5rem;
     letter-spacing: 0.3ch;
     width: 100%;
-  }
+}
 
-  .logo svg {
+.logo svg {
     transform: rotate(180deg);
     transition: transform var(--transition-speed)
-  }
+}
 
-  .navbar:hover .logo svg {
+.navbar:hover .logo svg {
     transform: rotate(-180deg);
-  }
+}
