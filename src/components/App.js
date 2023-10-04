@@ -1,18 +1,21 @@
 import './style.css'
-import Navbar from "./Navbar";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './Navbar';
+import Homepage from './Homepage';
+import Resume from './Resume';
+import Contact from './Contact';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <main>
-        <h1>
-          Terry's Personal Site ;)
-        </h1>
-        <p>
-          Some filler text...
-        </p>
-      </main>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

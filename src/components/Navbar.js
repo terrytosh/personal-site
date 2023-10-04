@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-
-// Import css file
+import { Link } from 'react-router-dom';
 import './style.css'
 
 export default class Navbar extends Component {
@@ -40,7 +39,7 @@ export default class Navbar extends Component {
               </li>
 
               <li className='nav-item'>
-                <a href='#' className='nav-link'>
+                <Link to="/" className="nav-link">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -65,11 +64,11 @@ export default class Navbar extends Component {
                     </g>
                   </svg>
                   <span className='link-text'>Home</span>
-                </a>
+                  </Link>
               </li>
 
               <li className='nav-item'>
-                <a href='#' className='nav-link'>
+                <Link to="/resume" className="nav-link">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -94,11 +93,11 @@ export default class Navbar extends Component {
                     </g>
                   </svg>
                   <span className="link-text">Resume</span>
-                </a>
+                </Link>
               </li>
 
               <li className='nav-item'>
-                <a href='#' className='nav-link'>
+                <Link to="/contact" className="nav-link">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -123,7 +122,7 @@ export default class Navbar extends Component {
                     </g>
                   </svg>
                   <span className="link-text">Contact</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
