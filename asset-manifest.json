@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/personal-site/static/css/main.d69cf9f6.css",
-    "main.js": "/personal-site/static/js/main.c76201bd.js",
+    "main.js": "/personal-site/static/js/main.c1218349.js",
+    "static/media/joydeparted.jpg": "/personal-site/static/media/joydeparted.b8a549e9c8edce4583f9.jpg",
     "static/media/devilgirl.JPG": "/personal-site/static/media/devilgirl.48606ccc071994da7590.JPG",
     "index.html": "/personal-site/index.html",
     "main.d69cf9f6.css.map": "/personal-site/static/css/main.d69cf9f6.css.map",
-    "main.c76201bd.js.map": "/personal-site/static/js/main.c76201bd.js.map"
+    "main.c1218349.js.map": "/personal-site/static/js/main.c1218349.js.map"
   },
   "entrypoints": [
     "static/css/main.d69cf9f6.css",
-    "static/js/main.c76201bd.js"
+    "static/js/main.c1218349.js"
   ]
 }
