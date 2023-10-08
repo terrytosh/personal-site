@@ -68,7 +68,7 @@ export default class Navbar extends Component {
               </li>
 
               <li className='nav-item'>
-                <Link to="/resume" className="nav-link">
+                <Link to="/journals" className="nav-link">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -92,7 +92,7 @@ export default class Navbar extends Component {
                       ></path>
                     </g>
                   </svg>
-                  <span className="link-text">Resume</span>
+                  <span className="link-text">Journals</span>
                 </Link>
               </li>
 
