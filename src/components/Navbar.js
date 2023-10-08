@@ -39,7 +39,7 @@ export default class Navbar extends Component {
               </li>
 
               <li className='nav-item'>
-                <Link to="/" className="nav-link">
+                <Link to="/home" className="nav-link">
                   <svg
                     aria-hidden="true"
                     focusable="false"

@@ -1,13 +1,12 @@
 import { Component } from 'react';
 import './style.css'
 
-export default class Homepage extends Component {
+export default class Title extends Component {
     render() {
         return (
-            <div>
+            <div className='title'>
               <main>
-                <h1>Homepage</h1>
-                <p>Some filler text...</p>
+                <h1>Terry's Personal Site ;) Enjoy</h1>
               </main>
             </div>
         );

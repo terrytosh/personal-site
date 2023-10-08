@@ -9,13 +9,14 @@
 
 body {
     color: black;
-    background-color: white;
+    background-color: #f5f5dc;
     margin: 0;
     padding: 0;
 }
 
 main {
     margin-left: 5rem;
+    margin-right: 5rem;
     padding: 1rem;
 }
 
@@ -25,6 +26,18 @@ main {
     position: fixed;
     background-color: var(--bg-primary);
     transition: width 600ms ease;
+}
+
+.right-bar {
+    width: 5rem;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    background-color: var(--bg-primary);
+}
+
+.title {
+    text-align: center;
 }
 
 .navbar-nav {
@@ -76,11 +89,11 @@ main {
 }
 
 .fa-primary {
-    color: #ff7eee;
+    color: #96DEAE;
 }
   
 .fa-secondary {
-    color: #df49a6;
+    color: #50c878;
 }
   
 .fa-primary,
