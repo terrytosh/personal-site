@@ -51,7 +51,7 @@ export default class Entry1 extends Component {
                   packages, and execute custom scripts using npm. As of right now, the dependencies for my project include: react, react-dom, and react-router-dom.
                 </p>
                 <p>
-                  <b>GitHub Pages</b> will be used to host my website. They offer free hosting thorugh GitHub Pages which is an extremely simple technology to setup. This way, I can focus more on
+                  <b>GitHub Pages</b> will be used to host my website. They offer free hosting through GitHub Pages which is an extremely simple technology to setup. This way, I can focus more on
                   designing my website, without the worry of how I will be hosting a public site. Thank you GitHub!
                 </p>
             </div>
