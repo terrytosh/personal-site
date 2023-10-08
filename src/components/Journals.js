@@ -8,7 +8,6 @@ export default class Journals extends Component {
         return (
             <div>
               <main>
-                <h2>Journals Page</h2>
                 <Entry1 />
                 <hr></hr>
                 <Entry2 />

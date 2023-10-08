@@ -1,11 +1,13 @@
 import { Component } from 'react';
 import './style.css'
+import joydeparted from '../images/joydeparted.jpg';
 
 export default class Entry1 extends Component {
     render() {
         return (
             <div>
-                <h4>Sunday, October 8th, 2023</h4>
+                <h3>Sunday, October 8th, 2023</h3>
+                <u><h4>Website Technology</h4></u>
                 <p>
                   Today I believe I decided on the purpose I want this site to serve myself. In the beginning, I wanted to use it as a personal portfolio.
                    A way to showcase my educational, engineering, and career achievements, but that was not very interesting to me. When trying to design and 
@@ -54,6 +56,20 @@ export default class Entry1 extends Component {
                   <b>GitHub Pages</b> will be used to host my website. They offer free hosting through GitHub Pages which is an extremely simple technology to setup. This way, I can focus more on
                   designing my website, without the worry of how I will be hosting a public site. Thank you GitHub!
                 </p>
+
+                <p>As of today, the website runs properly on both Chrome and Edge, but there is a small error on Firefox that I am still trying to figure out. On Firefox, when hovering over
+                   the navigation bar, the SVG icons increase to a much larger width and height than they are supposed to. I'm not too sure why this is happening only in Firefox, but I believe
+                   it is due to the differences in the browser's rendering engines. For now, I am still focusing on other properties of the website, so I will have to put off this bug fix until
+                   later. Just wanted to note that it was there. That's all for the technology side of things today.
+                </p>
+                <u><h4>Music</h4></u>
+                <p>Lately, I've been listening to a lot of Midwest Emo, some would say too much, but I don't think that's possible at all. 'Using' and 'Blonde Hair, Black Lungs' by Sorority
+                   Noise have been stuck on repeat for me recently. These two songs perfectly express some of the things I think and feel, but just don't know how to say it myself. The album
+                   'Joy, Departed' is just a fucking genius name to me. Paired with the amazing album cover, it is pure joy to my eyes and ears. 
+                   Click <a href='https://soundcloud.com/sorority-noise/sets/joy-departed-1?si=5f0ab13af2204f9b8dc2d5c4301cdc94&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'>here</a> to check it 
+                   out for yourself though, don't just take my word for it. That'll be all for today as I've run out of time. Till next time &lt;3.
+                </p>
+                <img src={joydeparted} alt='Joy, Departed Album Cover' width={350} height={350}></img>
             </div>
         );
     }
