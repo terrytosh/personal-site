@@ -135,10 +135,6 @@ main {
     transform: rotate(-180deg);
 }
 
-details {
-    user-select: none;
-}
-
 summary {
     cursor: pointer;
 }
