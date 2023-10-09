@@ -15,9 +15,9 @@ function App() {
         <Rightbar />
         <Title />
         <Routes>
-          <Route path="/home" element={<Homepage />} />
-          <Route path="/journals" element={<Journals />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/personal-site/home" element={<Homepage />} />
+          <Route path="/personal-site/journals" element={<Journals />} />
+          <Route path="/personal-site/contact" element={<Contact />} />
         </Routes>
       </Router>
     </div>

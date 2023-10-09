@@ -63,11 +63,8 @@ export default class Entry1 extends Component {
                    later. Just wanted to note that it was there. That's all for the technology side of things today.
                 </p>
                 <u><h4>Music</h4></u>
-                <p>Lately, I've been listening to a lot of Midwest Emo, some would say too much, but I don't think that's possible at all. 'Using' and 'Blonde Hair, Black Lungs' by Sorority
-                   Noise have been stuck on repeat for me recently. These two songs perfectly express some of the things I think and feel, but just don't know how to say it myself. The album
-                   'Joy, Departed' is just a fucking genius name to me. Paired with the amazing album cover, it is pure joy to my eyes and ears. 
-                   Click <a href='https://soundcloud.com/sorority-noise/sets/joy-departed-1?si=5f0ab13af2204f9b8dc2d5c4301cdc94&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'>here</a> to check it 
-                   out for yourself though, don't just take my word for it. That'll be all for today as I've run out of time. Till next time &lt;3.
+                <p>Since I'm low on time today, I'd just like to name an album I've been listening to a bunch this week. '<a href='https://soundcloud.com/sorority-noise/sets/joy-departed-1?si=5f0ab13af2204f9b8dc2d5c4301cdc94&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'>Joy, Departed</a>'
+                  , by Sorority Noise. That'll be all for today, till next time &lt;3.
                 </p>
                 <img src={joydeparted} alt='Joy, Departed Album Cover' width={350} height={350}></img>
             </div>
