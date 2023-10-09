@@ -21,6 +21,18 @@ main {
     padding: 1rem;
 }
 
+.title main {
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    border-bottom: 0%;
+}
+
+.journal-entries main {
+    padding-top: 0%;
+    margin-top: 0%;
+    border-top: 0%;
+}
+
 .navbar {
     width: 5rem;
     height: 100vh;

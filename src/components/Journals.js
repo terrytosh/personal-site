@@ -6,7 +6,7 @@ import Entry2 from './Entry2';
 export default class Journals extends Component {
     render() {
         return (
-            <div>
+            <div className='journal-entries'>
               <main>
                 <Entry1 />
                 <hr></hr>
