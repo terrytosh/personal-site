@@ -122,3 +122,15 @@ main {
 .navbar:hover .logo svg {
     transform: rotate(-180deg);
 }
+
+details {
+    user-select: none;
+}
+
+summary {
+    cursor: pointer;
+}
+
+details summary > * {
+    display: inline;
+}

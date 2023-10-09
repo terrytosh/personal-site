@@ -6,7 +6,10 @@ export default class Entry1 extends Component {
     render() {
         return (
             <div>
+                <details>
+                <summary>
                 <h3>Sunday, October 8th, 2023</h3>
+                </summary>
                 <u><h4>Website Technology</h4></u>
                 <p>
                   Today I believe I decided on the purpose I want this site to serve myself. In the beginning, I wanted to use it as a personal portfolio.
@@ -67,6 +70,7 @@ export default class Entry1 extends Component {
                   , by Sorority Noise. That'll be all for today, till next time &lt;3.
                 </p>
                 <img src={joydeparted} alt='Joy, Departed Album Cover' width={350} height={350}></img>
+                </details>
             </div>
         );
     }
