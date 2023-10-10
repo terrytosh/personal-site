@@ -6,8 +6,11 @@ export default class Contact extends Component {
         return (
             <div>
               <main>
-                <h1>Contact page</h1>
-                <p>Contact filler text...</p>
+                <h1>Links to my various accounts</h1>
+                <h3>Email: pterrytosh@gmail.com</h3>
+                <h3><a href="https://github.com/terrytosh">GitHub</a></h3>
+                <h3><a href="https://www.linkedin.com/in/terry-tosh">LinkedIn</a></h3>
+                <h3><a href="https://soundcloud.com/terry-tosh">Soundcloud</a></h3>
               </main>
             </div>
         );
