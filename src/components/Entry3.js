@@ -9,6 +9,7 @@ export default class Entry3 extends Component {
                   <summary>
                     <h3>Tuesday, October 10th, 2023</h3>
                   </summary>
+                  <u><h4>Website Technology</h4></u>
                   <p>
                     Simply added some links to my accounts/socials and personal email on the Contact page. May do more
                     later, but do not have much time today. Writing this during class and then starting my new position
