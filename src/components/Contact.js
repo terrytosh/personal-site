@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import './style.css'
 import RandomKitty from './RandomKitty';
+import RandomDog from './RandomDog';
 
 export default class Contact extends Component {
     render() {
@@ -15,6 +16,9 @@ export default class Contact extends Component {
                 <h3><a href="https://soundcloud.com/terry-tosh">Soundcloud</a></h3>
                 <hr></hr>
                 <RandomKitty />
+                <hr></hr>
+                <RandomDog />
+                <hr></hr>
               </main>
             </div>
         );
